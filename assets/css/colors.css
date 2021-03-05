@@ -1,0 +1,56 @@
+a.blurple,
+b.blurple {
+    color: #7289da;
+}
+
+a.gold {
+    color: #e9da51;
+}
+
+a.gold.animated {
+    animation: rainbow 1.5s infinite linear;
+}
+
+a.mdb,
+b.mdb {
+    color: #3CD3AD;
+}
+
+a.cyan {
+    color: #499bde;
+}
+
+a.red {
+    color: #b93535;
+}
+
+.buttons > a.github {
+    color: #000;
+    background: #f0f6fc;
+}
+
+.buttons > a.twitter {
+    color: #f0f6fc;
+    background: #1da1f2;
+}
+
+.buttons > a.instagram {
+    color: #e7edf1;
+    background: #8a2387;
+    background: -webkit-linear-gradient(to right, #8a2387, #e94057, #f27121);
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+}
+
+.buttons > a.paypal {
+    color: #fff;
+    background: #0070ba;
+}
+
+@keyframes rainbow {
+    0%, 100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}

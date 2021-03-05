@@ -1,0 +1,7 @@
+/bot https://discord.com/api/oauth2/authorize?client_id=798573830645874718&permissions=8&scope=bot 301
+
+http://drylo.xyz/* https://zzz.drylo.xyz/ 301!
+https://drylo.xyz/* https://zzz.drylo.xyz/ 301!
+
+http://zzz.drylo.xyz/* / 200
+https://zzz.drylo.xyz/* / 200
