@@ -2,6 +2,9 @@
 /agness https://top.gg/bot/798573830645874718 301!
 /meowdb https://github.com/Drylozu/MeowDB.js 301!
 
+http://q.drylo.xyz/ https://zzz.drylo.xyz/ 301!
+https://q.drylo.xyz/ https://zzz.drylo.xyz/ 301!
+
 http://q.drylo.xyz/* /media/:splat 200!
 https://q.drylo.xyz/* /media/:splat 200!
 
