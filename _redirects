@@ -1,5 +1,5 @@
-http://q.drylo.xyz/* /test/:splat 200!
-https://q.drylo.xyz/* /test/:splat 200!
+http://q.drylo.xyz/* /media/:splat 200!
+https://q.drylo.xyz/* /media/:splat 200!
 
 /bot https://top.gg/bot/798573830645874718 301!
 /agness https://top.gg/bot/798573830645874718 301!
