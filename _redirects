@@ -1,9 +1,11 @@
-http://q.drylo.xyz/* /media/:splat 200!
-https://q.drylo.xyz/* /media/:splat 200!
-
 /bot https://top.gg/bot/798573830645874718 301!
 /agness https://top.gg/bot/798573830645874718 301!
 /meowdb https://github.com/Drylozu/MeowDB.js 301!
+
+/media/* / 200
+
+http://q.drylo.xyz/* /media/:splat 200!
+https://q.drylo.xyz/* /media/:splat 200!
 
 http://drylo.xyz/* https://zzz.drylo.xyz/ 301!
 https://drylo.xyz/* https://zzz.drylo.xyz/ 301!
