@@ -1,26 +1,24 @@
-a.blurple,
-b.blurple {
+.blurple {
     color: #7289da;
 }
 
-a.gold {
+.gold {
     color: #e9da51;
 }
 
-a.gold.animated {
+.gold.animated {
     animation: rainbow 1.5s infinite linear;
 }
 
-a.mdb,
-b.mdb {
+.mdb {
     color: #3CD3AD;
 }
 
-a.cyan {
+.cyan {
     color: #499bde;
 }
 
-a.red {
+.red {
     color: #b93535;
 }
 

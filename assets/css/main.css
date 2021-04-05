@@ -98,10 +98,11 @@
 }
 
 #footer > p:first-child {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 #footer > p:last-child {
+    margin-top: 4px;
     margin-bottom: 1.5em;
 }
 
