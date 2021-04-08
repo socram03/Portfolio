@@ -11,5 +11,7 @@ https://q.drylo.xyz/* /media/:splat 200!
 http://drylo.xyz/* https://zzz.drylo.xyz/ 301!
 https://drylo.xyz/* https://zzz.drylo.xyz/ 301!
 
+/_redirects / 200!
+
 http://zzz.drylo.xyz/* / 200
 https://zzz.drylo.xyz/* / 200
