@@ -29,3 +29,29 @@ body {
     color: #ccc;
     font-family: 'Karla', sans-serif;
 }
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #474444;
+    border: 2px solid #f1f2f300;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
