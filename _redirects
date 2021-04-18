@@ -2,8 +2,8 @@
 /agness https://top.gg/bot/798573830645874718 301!
 /meowdb https://github.com/Drylozu/MeowDB.js 301!
 
-http://drylo.xyz/* https://zzz.drylo.xyz/:splat 301!
-https://drylo.xyz/* https://zzz.drylo.xyz/:splat 301!
+http://drylo.xyz/* https://zzz.drylo.xyz/ 301!
+https://drylo.xyz/* https://zzz.drylo.xyz/ 301!
 
 /_redirects / 200!
 
