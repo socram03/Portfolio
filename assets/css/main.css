@@ -26,8 +26,8 @@
 }
 
 #header > .info > img {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     border: 4px solid rgba(0, 0, 0, .5);
 }
@@ -117,10 +117,10 @@
         margin-left: 20px;
     }
 
-    #header > .info > img {
+    /* #header > .info > img {
         width: 130px;
         height: 130px;
-    }
+    } */
 
     #about > .content {
         padding: 30px 80px 20px 80px;
@@ -132,10 +132,10 @@
         flex-direction: column;
     }
 
-    #header > .info > img {
+    /* #header > .info > img {
         width: 120px;
         height: 120px;
-    }
+    } */
 
     .info > .buttons > a {
         margin: 2px 0px;
