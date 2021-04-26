@@ -67,9 +67,7 @@
     margin-right: 5px;
 }
 
-#about > .content > h1::selection,
-#about > .content > p:first-of-type::selection,
-#about > .content > p:first-of-type > *:not(.yey)::selection {
+#about > .content *:not(.yey)::selection {
     background: none;
     text-shadow: none;
     color: transparent;
