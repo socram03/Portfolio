@@ -1,0 +1,17 @@
+{
+    "short_name": "Drylozu",
+    "name": "Página de Drylozu",
+    "icons": [
+        {
+            "src": "/assets/images/avatar.gif",
+            "type": "image/gif",
+            "sizes": "220x220"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#0c0c0c",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#18f0a8",
+    "description": "La página oficial de Deivid, alias Drylozu."
+}
