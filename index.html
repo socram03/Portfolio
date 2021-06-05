@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Drylozu">
     <meta name="description" content="Hey, I'm Drylozu and this is my portfolio ;)">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-    <meta name="msapplication-TileColor" content="#358185">
-    <meta name="theme-color" content="#358185">
+    <meta name="msapplication-TileColor" content="#18f0a8">
+    <meta name="theme-color" content="#18f0a8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Mali:wght@600;700&display=swap"
+        rel="stylesheet">
     <base href="/">
     <link rel="icon" type="image/png" href="assets/images/icon.png">
-    <link rel="stylesheet" href="assets/css/colors.css">
-    <link rel="stylesheet" href="assets/css/defaults.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/styles.css">
     <title>Drylozu's portfolio</title>
 </head>
 
@@ -31,28 +32,24 @@
             <h1>Drylozu</h1>
             <div class="buttons">
                 <a class="github" target="_blank" href="https://github.com/Drylozu">Github</a>
-                <a class="twitter" target="_blank" href="https://twitter.com/Drylozu">Twitter</a>
+                <a class="blue" target="_blank" href="https://twitter.com/Drylozu">Twitter</a>
                 <a class="instagram" target="_blank" href="https://www.instagram.com/Drylozu/">Instagram</a>
-                <a class="paypal" target="_blank" href="https://www.paypal.me/Dryl0/">Donate</a>
+                <a class="blue" target="_blank" href="https://www.paypal.me/Dryl0/">Donate</a>
             </div>
         </div>
     </div>
     <div id="about">
         <div class="content">
             <h1>Hey,</h1>
-            <p>I'm <a href="https://github.com/Drylozu" target="_blank" class="blurple">Drylozu</a>, my real name is
-                <b>Deivid</b>. I speak Spanish natively but I try to focus on improving speaking English. <span
-                    class="yey">And you're pretty c</span>ool for finding this. I do comp<span class="yey">ute</span>r
-                stuff<span class="yey">.</span>
-            </p>
-            <p>I have <a class="gold animated"><noscript>4</noscript>
-                    <script>document.write(new Date().getFullYear() - 2017)</script>
-                </a> years of experience in everything related to programming.</p>
-            <p>But anyway, I have more knowledge in the following technologies:</p>
+            <p>Soy <a href="https://github.com/Drylozu" target="_blank" class="blurple">Drylozu</a>, pero todos me
+                suelen llamar <b>Deivid</b>. Me centro en aprender o entender la tecnología que tienes en tus manos.</p>
+            <p>Tengo una experiencia de <span class="gold animated">4</span> años en todo lo relacionado a la
+                programación.</p>
+            <p>De todas formas, hay algunas tecnologías en las que me enfatizo:</p>
             <div class="knowledges list">
                 <div><img src="assets/images/technologies/javascript.png" alt="JavaScript">JavaScript & TypeScript
                 </div>
-                <div><img src="assets/images/technologies/react.png" alt="ReactJS">ReactJS & React Native</div>
+                <div><img src="assets/images/technologies/react.png" alt="ReactJS">React & React Native</div>
                 <div><img src="assets/images/technologies/dart.png" alt="Dart">Dart - Flutter</div>
                 <div><img src="assets/images/technologies/html.png" alt="HTML5">HTML5 & CSS3</div>
                 <div><img src="assets/images/technologies/webpack.png" alt="Webpack">Webpack</div>
@@ -60,103 +57,121 @@
                 <div><img src="assets/images/technologies/mongodb.png" alt="MongoDB">MongoDB</div>
                 <div><img src="assets/images/technologies/python.png" alt="Python">Python</div>
                 <div><img src="assets/images/technologies/kotlin.png" alt="Kotlin">Kotlin</div>
+                <div><img src="assets/images/technologies/cpp.png" alt="C/C++">C/C++</div>
                 <div><img src="assets/images/technologies/java.png" alt="Java">Java</div>
                 <div><img src="assets/images/technologies/ruby.png" alt="Ruby">Ruby</div>
                 <div><img src="assets/images/technologies/vue.png" alt="Vue">Vue</div>
                 <div><img src="assets/images/technologies/sql.png" alt="SQL">SQL</div>
                 <div><img src="assets/images/technologies/cs.png" alt="C#">C#</div>
             </div>
-            <p>Some of my projects are generally:</p>
+            <p>Tengo algunos proyectos en un ámbito "general"; estos son:</p>
             <div class="list">
-                <p>Obviously, <a href="https://github.com/Drylozu/MeowDB.js" target="_blank" class="mdb">MeowDB</a>. You
-                    can go check it out, it's basically a tool that stores information you want in a JSON file wherever
-                    you want. Try it <a href="https://npmjs.com/package/meowdb" target="_blank" class="mdb">here</a>.
-                    <br><br>There's also a gem in Ruby, check it out <a href="https://github.com/Drylozu/MeowDB.rb"
-                        target="_blank" class="red">here</a>.
+                <p>Obviamente, <a href="https://github.com/Drylozu/MeowDB.js" target="_blank" class="mdb">MeowDB</a>.
+                    Una especie de base de datos en donde puedes guardar información en archivos JSON, fácil de usar y
+                    hecha en JavaScript con soporte a TypeScript. <a href="https://npmjs.com/package/meowdb"
+                        target="_blank" class="mdb">NPM</a>.
+                    <br><br>También se hizo una versión de esta librería para Ruby en forma de <a
+                        href="https://github.com/Drylozu/MeowDB.rb" target="_blank" class="red">gema</a> pero no es
+                    mantenida.
                 </p>
-                <p><a href="https://github.com/Drylozu/ReactTemplate" target="_blank" class="cyan">ReactTemplate</a>,
-                    a base project to start making your application with React using the latest versions of ECMAScript
-                    both on the backend and on the frontend. It uses Express in the backend.</p>
+                <p><a href="https://github.com/Drylozu/ReactTemplate" target="_blank" class="cyan">ReactTemplate</a>, un
+                    proyecto en el que se usa React y Express en conjunto a Webpack, en pocas palabras es para aquellos
+                    que no quieren usar Create React App o quieren tener todo listo en Webpack con solo las cosas
+                    esenciales.</p>
                 <p><a href="https://github.com/Drylozu/FlutterCalculator" target="_blank"
-                        class="cyan">FlutterCalculator</a>, a fully customizable calculator (in colors). It's not such
-                    a big thing but it works very well if you want to have a nice calculator (in design), it was a
-                    project to test Flutter.</p>
-                <p><a href="https://github.com/FreeAoi/MP3-Downloader" target="_blank"
-                        class="cyan">FreeAoi/MP3-Downloader</a>, Electron App that downloads YouTube videos as MP3. I'm
-                    a contributor of it and made all the current design.</p>
-                <p><a href="https://github.com/tttedu304/estreck" target="_blank" class="mdb">tttedu304/estreck</a>,
-                    it's a code hub, you can upload codes (snippets), edit and remove them. All you have to do is create
-                    an account. My name isn't currently displayed as contributor in commits but I contributed most to
-                    the whole project in general.</p>
-                <p><a href="https://github.com/Drylozu/vscKeyboardColor" target="_blank"
-                        class="blurple">vscKeyboardColor</a>, manage your keyboard color while coding. A VSCode
-                    extension that changes the color of some keys in your keyboard if there's an error or warning. It's
-                    a kind of rework, previously there was one that didn't come to light.</p>
-                <p><a href="https://github.com/Drylozu/vscDacezuTheme" target="_blank"
-                        class="blurple">vscDacezuTheme</a>, my own first theme for VSCode, with totally dark colors. I
-                    use it daily, get it <a
-                        href="https://marketplace.visualstudio.com/items?itemName=Drylozu.dacezu-theme" target="_blank"
-                        class="blurple">here</a>.</p>
-                <p><a href="https://github.com/CraterMaik/myChat" target="_blank" class="blurple">CraterMaik/myChat</a>,
-                    a chat app with real time messages from a web and a Discord channel, I contributed to it doing a
-                    little changes and another things but my name is neither displayed.</p>
-                <p><a href="https://github.com/Drylozu/OpenInBrowser" target="_blank" class="blurple">OpenInBrowser</a>,
-                    basically a Graviton plugin to open a file in the browser.</p>
-                <p><b class="red">Discoruby</b>, a Ruby gem to facilitate the use of the Discord API. Due to the
-                    extensiveness of the API, the project was abandoned and isn't being maintained.</p>
-                <p><b>MeowGraphQL</b>, Express and ReactJS with GraphQL to get data saved using MeowDB, in development
-                    (public soon&trade;).</p>
-            </div>
-            <p>I have developed several Discord bots, some of those are:</p>
-            <div class="list">
-                <p><b class="gold">Agness</b>, I think this was my first public bot in TypeScript. Maintained by some
-                    friends (they made it private-), check the website <a href="https://agnessbot.github.io/"
-                        target="_blank" class="cyan">here</a>.</p>
-                <p><a href="https://github.com/Drylozu/Lidee" target="_blank" class="cyan">Lidee</a>, abandoned but
-                    works properly. It's not maintained.</p>
-                <p><a href="https://top.gg/bot/690707314008653834" target="_blank" class="cyan">ROD</a> and <a
-                        href="https://top.gg/bot/760832285766844448" target="_blank" class="cyan">ROD Music</a>, made
-                    for a customer. It's not open source but he's happy with the result ;).</p>
-                <p><a href="https://discord.com/invite/eGbKrqM" target="_blank" class="cyan">DiscordAyuda</a>, a bot
-                    with many options, obviously not open source, made for that Discord Server.</p>
-            </div>
-            <p>I have developed and designed the following pages (don't hate me if you think they have almost the same
-                design, I have no ideas ):</p>
-            <div class="list">
-                <p><a href="https://github.com/Drylozu/Portfolio" target="_blank" class="mdb">This website</a>. I wanted
-                    to practice making pages with pure HTML, CSS and JS - and make my portfolio in the same way. I would
-                    think I had put a lot of effort into it and I like how it looks (you can see the page in the day to
-                    see a different design at night or vice versa 👀).</p>
-                <p><a href="https://github.com/Drylozu/MeowDBExplorer" target="_blank" class="mdb">MeowDBExplorer</a>, a
-                    JSON file explorer specially made to better observe the information you stored with <a
-                        href="https://npmjs.com/package/meowdb" target="_blank" class="mdb">MeowDB</a>. Look at the
-                    repository and if you like it, help me with a little star ;). It's very simple and I plan to make
-                    the properties change their value on the page.
+                        class="cyan">FlutterCalculator</a>, fue mi primera aplicación para Android utilizando Flutter,
+                    así como su nombre lo dice, es una calculadora pero esta cambia en diseño y puedes poner tus propias
+                    fotos como fondo o simplemente cambiar el color de un texto.
                 </p>
-                <p><a href="https://bloodbath.netlify.app/" target="_blank" class="red">NTBBloodbath's portfolio</a>, I
-                    made this website and relied on this to make my own but I certainly changed a few things.</p>
-                <p><a href="https://agnessbot.github.io/" target="_blank" class="gold">Agness Homepage</a>, my bot's
-                    current home page, subject to change in the future.</p>
-                <p><b>Kapersi Dashboard</b>, an old project being updated. Made for a client, it'll not be open
-                    source but we're working on it.</p>
+                <p><a href="https://github.com/FreeAoi/MP3-Downloader" target="_blank"
+                        class="cyan">FreeAoi/MP3-Downloader</a>, ¿quieres descargar videos de YouTube como MP3s?
+                    Contribuí a esta aplicación de Electron con parte de su diseño actual y moviéndola de JavaScript a
+                    TypeScript.</p>
+                <p><a href="https://github.com/tttedu304/estreck" target="_blank" class="mdb">tttedu304/estreck</a>, es
+                    un "centro de código" donde puedes subir y ver trozos de código de personas con tan solo crear una
+                    cuenta. Mi aportación abarca una gran parte del código de este.</p>
+                <p><a href="https://github.com/Drylozu/vscKeyboardColor" target="_blank"
+                        class="blurple">vscKeyboardColor</a>, fue una extensión de Visual Studio Code muy simple y
+                    quería introducirme en este mundo. Así como su nombre indica, cambia el color de tu teclado mientras
+                    estás escribiendo código y solo en el caso de que hayan advertencias o errores pero no está
+                    disponible en su Marketplace.</p>
+                <p><a href="https://github.com/Drylozu/vscDacezuTheme" target="_blank"
+                        class="blurple">vscDacezuTheme</a>, mi primer tema de Visual Studio Code, un poco simple y
+                    oscuro pero siento que es muy agradable visualmente, intento actualizarlo cada que pueda. Puedes
+                    conseguirlo <a href="https://marketplace.visualstudio.com/items?itemName=Drylozu.dacezu-theme"
+                        target="_blank" class="blurple">aquí</a>.</p>
+                <p><a href="https://github.com/CraterMaik/myChat" target="_blank" class="blurple">CraterMaik/myChat</a>,
+                    una aplicación web para chatear en tiempo real con usuarios de un servidor de Discord, mi aporte fue
+                    relativamente grande al proyecto en general.</p>
+                <p><a href="https://github.com/Drylozu/OpenInBrowser" target="_blank" class="blurple">OpenInBrowser</a>,
+                    su nombre lo dice todo, ¿no es así? Una pequeña extensión de Graviton (editor de código) que abre
+                    archivos en el navegador.</p>
+                <p><b class="red">Discoruby</b>, una gema de Ruby sin mantener el cual su fin principal fue poder hacer
+                    bots de Discord con ella, la API de Discord fue expandiéndose y con el poco tiempo que contábamos,
+                    fue abandonada.</p>
             </div>
-            <p>I also appreciate if you star any of my public repositories if you like them, including <a
-                    href="https://github.com/Drylozu/Portfolio" target="_blank" class="mdb">the one of this page</a>.
-            </p>
-            <p style="margin: 30px 0px 5px 0px;">Do you want to talk to me? You can contact me at:</p>
+            <p>He desarrollado varios bots de Discord, algunos de ellos son:</p>
             <div class="list">
-                <p><a href="https://twitter.com/Drylozu" target="_blank" class="blurple">@Drylozu</a> in Twitter.</p>
-                <p><a href="https://t.me/Drylozu" target="_blank" class="blurple">@Drylozu</a> in Telegram.</p>
-                <p><b class="blurple">@Deivid.<small>#6160</small></b> in Discord.</p>
-                <p><a href="mailto:deivid@drylo.xyz" class="blurple">deivid@drylo.xyz</a> via email.</p>
-                <p>If you like what I do and want to support me financially, <a href="https://www.paypal.me/Dryl0/"
-                        target="_blank" class="blurple">here's my Paypal</a> (I'm not asking for money btw-).</p>
+                <p><b class="gold">Agness</b>, un bot de roles por reacción, embeds y comandos personalizados con
+                    bienvenidas y salidas. Lo empecé a hacer con un gran amigo :'). Actualmente está en crecimiento y
+                    fue hecho en JavaScript pero lo pasamos a TypeScript y es en lo que está actualmente. Vota e invita
+                    por Agness <a href="https://top.gg/bot/798573830645874718" target="_blank" class="gold">aquí</a>.
+                </p>
+                <p><a href="https://github.com/Drylozu/Lidee" target="_blank" class="cyan">Lidee</a>, yo junto a un
+                    amigo hicimos este bot pero nunca lo llegamos a promocionar, tampoco teníamos tanto tiempo para
+                    hacer cosas en ese entonces así que simplemente lo dejamos de código abierto.</p>
+                <p><a href="https://top.gg/bot/690707314008653834" target="_blank" class="cyan">ROD</a> y <a
+                        href="https://top.gg/bot/760832285766844448" target="_blank" class="cyan">ROD Music</a>, hechos
+                    para un cliente, puedes votar por ellos allí. No es de código abierto actualmente pero sigue
+                    existiendo y por eso quería incluirlos en esta lista.</p>
+                <p><a href="https://discord.com/invite/eGbKrqM" target="_blank" class="red">DACH</a>, un bot hecho para
+                    otro cliente. Fue interesante ver cómo poco a poco iba implementando cosas y llegué a mejorar el
+                    rendimiento del bot por mucho, es un gran proyecto pagado.</p>
+            </div>
+            <p>He desarollado y diseñado varias páginas, entre ellas:</p>
+            <div class="list">
+                <p><a href="https://github.com/Drylozu/Portfolio" target="_blank" class="mdb">Esta página</a>, desde
+                    hace tiempo quería hacer una página en la que me describiera y la gente pudiera ver como es posible
+                    que sin importar la edad que tengas, siempre puedas aprender mientras tengas una buena actitud y
+                    casi sin sentimientos de rendirte. A su vez, quería practicar HTML, CSS y también un poco de JS
+                    (aunque en su mayoría aquí no hay); agradezco el apoyo que ciertas personas me han dado siempre e
+                    incondicionalmente. No sé si llegar a considerar esta página como un «Portfolio» o como un
+                    «autoretrato» en cierta parte pero puedes ver su código allí. Puedes visitar el <a
+                        href="https://github.com/Drylozu/Portfolio" target="_blank" class="mdb">repositorio</a> y darle
+                    estrella si aprecias el tiempo que me tomé en redactar todo el texto de la página teniendo en cuenta
+                    que anteriormente estaba en inglés.</p>
+                <p><a href="https://github.com/Drylozu/MeowDBExplorer" target="_blank" class="mdb">MeowDBExplorer</a>,
+                    una página que hice en mis casi-inicios con React y fue diseñada principalmente para usarse con <a
+                        href="https://npmjs.com/package/meowdb" target="_blank" class="mdb">MeowDB</a>. Simplemente un
+                    explorador de archivos JSON con un diseño un tanto agradable.
+                </p>
+                <p><a href="https://bloodbath.netlify.app/" target="_blank" class="red">NTBBloodbath</a>, este fue el
+                    proyecto que hice principalmente para llevar acabo mi página después de un tiempo y obviamente
+                    cambié algunas cosas en relación a su página.</p>
+                <p><a href="https://github.com/AgnessBot/AgnessBot.github.io" target="_blank" class="gold">Agness</a>,
+                    la página de mi bot de Discord. Hice su primera versión pero también estoy ayudando un poco detrás
+                    de
+                    <em>cámaras</em> en la elaboración de la nueva versión. Una vista previa de la nueva versión la
+                    puedes encontrar <a href="https://agness.netlify.app/" target="_blank" class="gold">aquí</a>.
+                </p>
+            </div>
+            <p style="margin: 30px 0px 5px 0px;">¿Intentas contactarme? Lo aprecio pero ya tengo a <a
+                    href="https://abiiee.netlify.app/" target="_blank" class="gold">Abiiee</a>, ahq. Algunas de las
+                formas que dispongo para contactos son:</p>
+            <div class="list">
+                <p><a href="https://twitter.com/Drylozu" target="_blank" class="blurple">@Drylozu</a> en la plataforma
+                    del pajarito, Twitter.</p>
+                <p><a href="https://t.me/Drylozu" target="_blank" class="blurple">@Drylozu</a> en el wasap 2, Telegram.
+                </p>
+                <p><b class="blurple">@Deivid.<small>#6160</small></b> en el skype gaming, Discord.</p>
+                <p><a href="https://www.paypal.me/Dryl0/" target="_blank" class="blurple">Paypal</a>, en «exclusiva»;
+                    aún así, no es necesario.</p>
             </div>
         </div>
     </div>
     <div id="footer">
         <p>Copyright &copy; 2021</p>
-        <p>Made by Drylozu with love</p>
+        <p>Hecho por Drylozu :)</p>
         <p><small><em>Happy programmers make happy code!</em></small></p>
     </div>
 </body>

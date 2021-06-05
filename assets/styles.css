@@ -1,3 +1,97 @@
+.blurple {
+    color: #7289da;
+}
+
+.gold {
+    color: #e9da51;
+}
+
+.gold.animated {
+    animation: rainbow 1.5s infinite linear;
+}
+
+.mdb {
+    color: #3CD3AD;
+}
+
+.cyan {
+    color: #499bde;
+}
+
+.red {
+    color: #b93535;
+}
+
+b:hover,
+a:hover {
+    transition: 300ms;
+    filter: opacity(0.7);
+}
+
+.buttons > a.github {
+    color: #000;
+    background: #f0f6fc;
+}
+
+.buttons > a.instagram {
+    color: #e7edf1;
+    background: #8a2387;
+    background: -webkit-linear-gradient(to right, #8a2387, #e94057, #f27121);
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+}
+
+.buttons > a.blue {
+    color: #fff;
+    background: #027cb5;
+}
+
+* {
+    -webkit-tap-highlight-color: #00000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    color: #ccc;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #474444;
+    border: 2px solid #f1f2f300;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
 #header {
     height: 100vh;
     display: flex;
@@ -53,9 +147,10 @@
 }
 
 #about > .content {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 500;
     padding: 30px 250px 20px 250px;
-    font-family: 'BM Mini', sans-serif;
+    font-family: 'Mali', sans-serif;
 }
 
 #about > .content > .list {
@@ -65,12 +160,6 @@
 .content > .list > *::before {
     content: '-';
     margin-right: 5px;
-}
-
-#about > .content *:not(.yey)::selection {
-    background: none;
-    text-shadow: none;
-    color: transparent;
 }
 
 .content > .knowledges > div {
@@ -110,6 +199,15 @@
 #footer > p:last-child {
     margin-top: 4px;
     margin-bottom: 1.5em;
+}
+
+@keyframes rainbow {
+    0%, 100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(360deg);
+    }
 }
 
 @media (max-width: 900px) {
