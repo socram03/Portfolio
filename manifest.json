@@ -3,9 +3,9 @@
     "name": "Página de Drylozu",
     "icons": [
         {
-            "src": "/assets/images/avatar.gif",
-            "type": "image/gif",
-            "sizes": "220x220"
+            "src": "/assets/images/icon.png",
+            "type": "image/png",
+            "sizes": "365x365"
         }
     ],
     "start_url": "/",
