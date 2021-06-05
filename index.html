@@ -6,9 +6,10 @@
     <meta name="author" content="Drylozu">
     <meta name="description" content="Hola y bienvenid@ a mi página web, yey~">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/images/icon.png">
     <meta name="msapplication-TileColor" content="#18f0a8">
     <meta name="theme-color" content="#18f0a8">
-    <base href="/">
+    <!-- <base href="/"> -->
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="assets/images/icon.png">
     <link rel="stylesheet" href="assets/styles.css">
@@ -183,6 +184,10 @@
         <p>Hecho por Drylozu :)</p>
         <p><small><em>Happy programmers make happy code!</em></small></p>
     </div>
+    <script>
+        if ('serviceWorker' in navigator)
+            navigator.serviceWorker.register('/assets/sw.js');
+    </script>
 </body>
 
 </html>
