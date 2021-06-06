@@ -1,4 +1,4 @@
-const cacheName = 'drylozu-v1';
+const cacheName = 'drylozu-v1.1';
 
 self.addEventListener('install', e => {
     e.waitUntil(
