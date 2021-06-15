@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Mali:wght@600;700&display=swap');
 
 .blurple {
-    color: #7289da;
+    color: #7d93e0;
 }
 
 .gold {
@@ -24,10 +24,19 @@
     color: #de4040;
 }
 
+.twitch {
+    color: #9146ff;
+}
+
 b:hover,
 a:hover {
     transition: 300ms;
     filter: opacity(0.7);
+}
+
+.buttons > a.twitch {
+    color: #fdfdfd;
+    background: #9146ff;
 }
 
 .buttons > a.github {
