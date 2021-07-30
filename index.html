@@ -9,9 +9,12 @@
     <meta name="msapplication-TileColor" content="#18f0a8">
     <meta name="theme-color" content="#18f0a8">
     <base href="/">
+    <title>Drylozu</title>
     <link rel="icon" type="image/png" href="assets/images/icon.png">
     <link rel="stylesheet" href="assets/styles.css">
-    <title>Drylozu</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@latest/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@latest/dist/aos.css" />
 </head>
 
 <body style="background-color: #0c0c0c;">
@@ -33,7 +36,7 @@
                 <a class="instagram" target="_blank" rel="noreferrer"
                     href="https://www.instagram.com/Drylozu/">Instagram</a>
                 <a class="twitch" target="_blank" rel="noreferrer" href="https://www.twitch.tv/drylozu">Twitch</a>
-                <a class="blue" target="_blank" rel="noreferrer" href="https://www.paypal.me/Dryl0/">Donate</a>
+                <a class="blue" target="_blank" rel="noreferrer" href="https://www.paypal.me/Dryl0/">Paypal</a>
             </div>
         </div>
     </div>
@@ -56,6 +59,7 @@
                 <div><img src="assets/images/technologies/webpack.png" alt="Webpack">Webpack</div>
                 <div><img src="assets/images/technologies/graphql.png" alt="GraphQL">GraphQL</div>
                 <div><img src="assets/images/technologies/mongodb.png" alt="MongoDB">MongoDB</div>
+                <div><img src="assets/images/technologies/nextjs.png" alt="Next.js">Next.js</div>
                 <div><img src="assets/images/technologies/python.png" alt="Python">Python</div>
                 <div><img src="assets/images/technologies/kotlin.png" alt="Kotlin">Kotlin</div>
                 <div><img src="assets/images/technologies/cpp.png" alt="C/C++">C/C++</div>
@@ -117,20 +121,11 @@
             </div>
             <p>He desarrollado varios bots de Discord, algunos de ellos son:</p>
             <div class="list">
-                <p><b class="gold">Agness</b>, un bot de roles por reacción, embeds y comandos personalizados con
-                    bienvenidas y salidas. Lo empecé a hacer con un gran amigo :'). Actualmente está en crecimiento y
-                    fue hecho en JavaScript pero lo pasamos a TypeScript y es en lo que está actualmente. <a
-                        href="https://top.gg/bot/798573830645874718" target="_blank" rel="noreferrer" class="gold">Vota
-                        e invita por Agness aquí</a>.
-                </p>
                 <p><a href="https://github.com/Drylozu/Lidee" target="_blank" rel="noreferrer" class="cyan">Lidee</a>,
                     yo junto a un amigo hicimos este bot pero nunca lo llegamos a hacerlo conocer, tampoco teníamos
                     tanto tiempo para hacer cosas en ese entonces así que simplemente lo dejamos de código abierto.</p>
-                <p><a href="https://top.gg/bot/690707314008653834" target="_blank" rel="noreferrer" class="cyan">ROD</a>
-                    y <a href="https://top.gg/bot/760832285766844448" target="_blank" rel="noreferrer" class="cyan">ROD
-                        Music</a>, hechos para un cliente. No es de código abierto actualmente pero sigue existiendo y
-                    por eso quería incluirlos en esta lista; sus respectivos enlaces para votar por ellos están el
-                    nombres.</p>
+                <p><a href="https://discord.gg/WUY5xNE" target="_blank" rel="noreferrer" class="cyan">Rodriguh</a>, bot
+                    para un servidor de Discord.</p>
                 <p><a href="https://discord.com/invite/eGbKrqM" target="_blank" rel="noreferrer" class="red">CHAD</a>,
                     un bot hecho para otro cliente. Fue interesante ver cómo poco a poco iba implementando cosas y
                     llegué a mejorar el rendimiento del bot por mucho, es un gran proyecto que mantengo en día.</p>
@@ -153,12 +148,6 @@
                 <p><a href="https://bloodbath.netlify.app/" target="_blank" rel="noreferrer"
                         class="red">NTBBloodbath</a>, este fue el proyecto que hice principalmente para llevar acabo mi
                     página después de un tiempo y obviamente cambié algunas cosas en relación a su página.</p>
-                <p><a href="https://github.com/AgnessBot/AgnessBot.github.io" target="_blank" rel="noreferrer"
-                        class="gold">Agness</a>, la página de mi bot de Discord. Hice su primera versión pero también
-                    estoy ayudando un poco detrás de <em>cámaras</em> en la elaboración de la nueva versión. <a
-                        href="https://agness.netlify.app/" target="_blank" rel="noreferrer" class="gold">Vista previa
-                        aquí</a>.
-                </p>
             </div>
             <p style="margin: 30px 0px 5px 0px;">¿Intentas contactarme? Algunas de las formas que dispongo para
                 contactos son:</p>
@@ -168,7 +157,7 @@
                 <p><a href="https://t.me/Drylozu" target="_blank" rel="noreferrer" class="blurple">@Drylozu</a> en el
                     wasap 2, Telegram.
                 </p>
-                <p><b class="blurple">@Deivid.<small>#0801</small></b> en el skype gaming, Discord.</p>
+                <p><b class="blurple">@Deivid<small>#2128</small></b> en el skype gaming, Discord.</p>
                 <p><a href="https://www.paypal.me/Dryl0/" target="_blank" rel="noreferrer" class="blurple">Paypal</a>,
                     en «exclusiva»; aún así, no es necesario.</p>
             </div>
@@ -179,6 +168,13 @@
         <p>Hecho por Drylozu :)</p>
         <p><small><em>Happy programmers make happy code!</em></small></p>
     </div>
+    <script>
+        for (const e of document.querySelectorAll('p')) {
+            e.setAttribute('data-aos', 'fade-up');
+            e.setAttribute('data-aos-once', 'true');
+        }
+        AOS.init();
+    </script>
 </body>
 
 </html>
